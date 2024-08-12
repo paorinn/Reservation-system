@@ -1,0 +1,39 @@
+.header {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+.humburger-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 7px;
+    width: 56px;
+    height: 56px;
+    border-radius: 8px;
+    background-color: #2d75ee;
+}
+
+.humburger-btn__line,
+.humburger-btn::before,
+.humburger-btn::after {
+    content: "";
+    width: 30px;
+    height: 1px;
+    background-color: #fefefe;
+    border-radius: 1px;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.humburger-btn.is-opened .humburger-btn__line {
+    opacity: 0;
+}
+
+.humburger-btn.is-opened::before {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.humburger-btn.is-opened::after {
+    transform: translateY(-8px) rotate(-45deg);
+}
