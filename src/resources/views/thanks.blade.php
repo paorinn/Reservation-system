@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.simple')
 
 @section('css')
 <link rel="stylesheet" href="{{ asset('css/thanks.css') }}">

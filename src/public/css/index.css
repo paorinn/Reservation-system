@@ -1,0 +1,31 @@
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card {
+    max-width: 350px;
+    width: 100%;
+    margin: 200px auto 0;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+.card__img img{
+    width: 100%;
+}
+.card__content {
+    padding: 15px 25px;
+}
+.card__content h2 {
+    font-weight: bold;
+}
+.card__content-tag-item {
+    display: inline-block;
+}
+.detail-btn {
+        padding: 5px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+}

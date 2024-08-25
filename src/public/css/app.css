@@ -13,6 +13,7 @@
     height: 56px;
     border-radius: 8px;
     background-color: #2d75ee;
+    margin-right: 1rem;
 }
 
 .humburger-btn__line,
@@ -21,7 +22,7 @@
     content: "";
     width: 30px;
     height: 1px;
-    background-color: #fefefe;
+    background-color: #a8a7a7;
     border-radius: 1px;
     transition: transform 0.3s, opacity 0.3s;
 }

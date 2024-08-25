@@ -141,8 +141,8 @@ body {
                 </div>  
                 <div class="modal-body">  
                     <a href="/" class="btn btn-link">Home</a>  
-                    <a href="/register" class="btn btn-link">Registration</a>  
-                    <a href="/login" class="btn btn-link">Login</a>  
+                    <a href="/logout" class="btn btn-link">Logout</a>  
+                    <a href="/mypage" class="btn btn-link">Mypage</a>  
                 </div>  
             </div>  
         </div>  
